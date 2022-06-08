@@ -1,0 +1,104 @@
+2022-06-02 17:49:08,711 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-06-02 18:16:38,093 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:16:38,097 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.3.14:8201_true,
+
+2022-06-02 18:19:18,630 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:19:18,630 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2022-06-02 18:19:39,141 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:19:39,141 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.3.14:8201_true,
+
+2022-06-02 18:19:50,070 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:19:50,070 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.3.14:8301_true,
+
+2022-06-02 18:19:55,779 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:19:55,779 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.3.14:8101_true,
+
+2022-06-02 18:24:53,398 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:24:53,398 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2022-06-02 18:31:26,781 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:31:26,781 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.3.14:8301_true,
+
+2022-06-02 18:33:06,382 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:33:06,382 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2022-06-02 18:33:06,474 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:33:06,474 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2022-06-02 18:33:06,505 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:33:06,505 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-06-02 18:47:04,264 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:47:04,264 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.3.14:8201_true,
+
+2022-06-02 18:47:09,718 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:47:09,718 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.3.14:8301_true,
+
+2022-06-02 18:47:12,340 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:47:12,340 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.3.14:8101_true,
+
+2022-06-02 18:55:12,330 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:55:12,330 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2022-06-02 18:55:19,461 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:55:19,461 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2022-06-02 18:57:36,445 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:57:36,446 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.3.14:8201_true,
+
+2022-06-02 18:57:41,452 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8301:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:57:41,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.3.14:8301_true,
+
+2022-06-02 18:57:41,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.3.14:8301_true,
+
+2022-06-02 18:57:43,436 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.3.14:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:57:43,436 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.3.14:8202_true,192.168.3.14:8201_true,
+
+2022-06-02 18:57:43,704 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.3.14:8301@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-02 18:57:45,960 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.3.14:8301@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-02 18:57:47,638 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.3.14:8301@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-02 18:59:57,318 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8201:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 18:59:57,319 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.3.14:8202_true,
+
+2022-06-02 19:00:13,450 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8202:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 19:00:13,450 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2022-06-02 19:00:13,523 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.3.14:8301_true,
+
+2022-06-02 19:00:13,664 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.3.14:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-02 19:00:13,664 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2022-06-02 19:00:14,655 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.3.14:8301@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-02 19:00:15,655 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.3.14:8301@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-02 19:00:16,908 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.3.14:8301@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-02 19:01:23,354 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+

@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    # 环境也是和配置文件保持一致
+    active: dev
+  cloud:
+    nacos:
+      config:
+        # 配置文件后缀名
+        file-extension: yml

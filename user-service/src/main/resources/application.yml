@@ -1,0 +1,46 @@
+server:
+  port: 8101
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloudstudy?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: zhixi158
+    # 应用名称
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      discovery:
+        # 配置Nacos注册中心地址（默认）
+        server-addr: www.zhangzhixi.top:80
+
+        # 配置Nacos命名空间
+#        namespace: 21064619-da60-433c-a186-b07ec3d308e8
+
+    #sentinel流量控制
+#    sentinel:
+#      transport:
+#        # 添加监控页面地址即可
+#        dashboard: localhost:8858
+
+#分布式事务-使用nacos方式部署
+seata:
+  # 注册
+  registry:
+    # 使用Nacos
+    type: nacos
+    nacos:
+      # 使用Seata的命名空间，这样才能正确找到Seata服务，由于组使用的是SEATA_GROUP，配置默认值就是，就不用配了
+      namespace: d2c0cd8c-0aaa-43f3-b752-1d4e7800fd04
+      username: nacos
+      password: nacos
+      server-addr: www.zhangzhixi.top:80
+  # 配置
+  config:
+    type: nacos
+    nacos:
+      namespace: d2c0cd8c-0aaa-43f3-b752-1d4e7800fd04
+      username: nacos
+      password: nacos
+      server-addr: www.zhangzhixi.top:80
