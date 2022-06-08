@@ -2,7 +2,9 @@
 
 # 微服务进阶
 
-原代码地址：三个简单的微服务组成，蓝奏云下载地址：https://wwd.lanzouq.com/iWYKr063ct3e
+原代码地址：三个简单的微服务组成，蓝奏云下载地址：https://wwd.lanzouq.com/iWYKr063ct3e  
+注意一点的是：使用此压缩包的微服务，需要在父项目的pom文件中将版本修改为2.6.3  
+<spring-boot.version>2.6.3</spring-boot.version>
 
 前面我们了解了微服务的一套解决方案，但是它是基于Netflix的解决方案，实际上我们发现，很多框架都已经停止维护了，来看看目前我们所认识到的SpringCloud各大组件的维护情况：
 
